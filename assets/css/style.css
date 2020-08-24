@@ -164,4 +164,63 @@ section.produtos{
   padding: 60px 0;
 }
 
+.produtos-container{
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+}
+
+.produtos-item{
+  width: 300px;
+  flex: 1;
+}
+
+.produtos-item h1{
+  font-size: 2.25em;
+  margin-bottom: 30px;
+}
+
+.produtos-item h1::before{
+  content: '';
+  display: block;
+  margin: 0 auto 25px auto;
+  width: 100px;
+  height: 100px;
+  background: currentColor;
+  border-radius: 50%;
+  border: 5px solid #e7e4d8;
+  box-shadow: 0 0 0 10px currentColor;
+}
+
+.produtos-item h1.produtos-paulista::before{
+  color: #492901;
+}
+
+.produtos-item h1.produtos-nordestino::before{
+  color: #c17139;
+}
+
+.produtos-item h1.produtos-mineiro::before{
+  color: #d7a54d;
+}
+
+.produtos-item p{
+  font-size: 0.875em;
+}
+
+.produtos a{
+  display: block;
+  margin: 60px auto 0px auto;
+  width: 180px;
+  color: #252525;
+  padding: 18px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.125em;
+  font-weight: bold;
+  border: 3px solid;
+}
+
 /* SECTION PRODUTOS - END */
