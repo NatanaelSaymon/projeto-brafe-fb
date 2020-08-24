@@ -18,6 +18,13 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
+
+
 /* HEADER - BEGINS */
 header {
   width: 100%;
@@ -45,8 +52,9 @@ header {
   text-transform: uppercase;
   padding: 10px;
 }
-
 /* HEADER - END */
+
+
 
 /* SECTION BANNER - BEGINS */
 section.banner {
@@ -85,5 +93,75 @@ section.banner {
   color: #ffffff;
   font-style: italic;
 }
-
 /* SECTION BANNER - END */
+
+
+
+/* MAIN ABOUT BEGIN */
+main {
+  width: 100%;
+  padding: 60px 0;
+}
+
+main .about-container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.about-container h1 {
+  font-size: 2.25em;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.about-container .about-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-items .item{
+  flex: 1;
+}
+
+.about-items .item:first-child {
+  margin: 0 10px 0 0;
+}
+
+.about-items .item + .item {
+  margin: 0 0 0 10px;
+}
+
+.item h2{
+  width: 220px;
+  text-align: center;
+  color: #ffffff;
+  background: #252525;
+  padding: 15px 0px;
+
+  position: relative;
+  top: -32px;
+}
+
+.about-container p{
+  max-width: 460px;
+  text-align:center;
+  font-size: 1.125em;
+  margin: 0 auto;
+  line-height: 1.4em;
+  font-style: italic;
+}
+/* MAIN ABOUT END */
+
+
+
+/* SECTION PRODUTOS - BEGIN */
+section.produtos{
+  width: 100%;
+  background: #e7e4d8;
+  border-top: 3px solid #d6d3c8;
+  border-bottom: 3px solid #d6d3c8;
+  padding: 60px 0;
+}
+
+/* SECTION PRODUTOS - END */
