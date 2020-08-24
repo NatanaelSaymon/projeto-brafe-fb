@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* HEADER - BEGINS */
+header {
+  width: 100%;
+  background: #252525;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  height: 80px;
+}
+
+.menu-nav ul {
+  display: flex;
+}
+
+.menu-nav a {
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+/* HEADER - END */
+
+/* SECTION BANNER - BEGINS */
+section.banner {
+  background-image: url('../img/bg-intro.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 138px 0;
+}
+
+.banner-container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner-container h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  color: #FFFFFF;
+}
+
+.banner-container p {
+  color: #FFFFFF;
+}
+
+/* SECTION BANNER - END */
