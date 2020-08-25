@@ -243,6 +243,7 @@ section.lugares{
 
 .lugar-item{
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto 65px auto;
 }
 
@@ -285,3 +286,65 @@ section.lugares{
   color: #252525;
 }
 /* SECTION LUGARES END */
+
+
+
+/* SECTION NEWSLETTER BEGIN */
+section.newsletter{
+  width: 100%;
+  background: #e7e4d8;
+  padding: 40px 0;
+}
+
+.newsletter-container{
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-item-1,
+.newsletter-item-2{
+  max-width: 460px;
+}
+
+.newsletter-item-1{
+  margin-right: 10px;
+}
+
+.newsletter-item-1 h2{
+  font-size: 2.25em;
+  color: #252525;
+}
+
+.newsletter-item-1 p{
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.newsletter-item-2{
+  display: flex;
+  margin-left: 10px;
+}
+
+.newsletter-item-2 input{
+  width: 320px;
+  border: 3px solid #252525;
+  padding: 10px;
+  font-size: 1.5em;
+  color: #8b8982;
+  font-style: italic;
+}
+
+.newsletter-item-2 button{
+  width: 140px;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  border: 3px solid #252525;
+  padding: 10px;
+  background: #252525;
+}
+/* SECTION NEWSLETTER END */
