@@ -366,10 +366,15 @@ footer{
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-item {
   max-width: 480px;
+}
+
+.footer-item a{
+  color: #252525;
 }
 .footer-item-img {
   max-width: 470px;
