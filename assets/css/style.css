@@ -173,10 +173,11 @@ section.produtos{
   margin: 0 auto;
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .produtos-item{
-  width: 300px;
+  margin: 0 10px;
   flex: 1;
 }
 
@@ -326,6 +327,7 @@ section.newsletter{
 
 .newsletter-item-2{
   display: flex;
+  /*flex-wrap: wrap;*/
   margin-left: 10px;
 }
 
@@ -348,3 +350,5 @@ section.newsletter{
   background: #252525;
 }
 /* SECTION NEWSLETTER END */
+
+/* MOBILE */
