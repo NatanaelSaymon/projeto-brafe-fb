@@ -308,12 +308,13 @@ section.newsletter{
 
 .newsletter-item-1,
 .newsletter-item-2{
-  max-width: 460px;
+  /* width: 460px; */
+  flex: 1;
 }
 
-.newsletter-item-1{
+/* .newsletter-item-1{
   margin-right: 10px;
-}
+} */
 
 .newsletter-item-1 h2{
   font-size: 2.25em;
@@ -327,8 +328,6 @@ section.newsletter{
 
 .newsletter-item-2{
   display: flex;
-  /*flex-wrap: wrap;*/
-  margin-left: 10px;
 }
 
 .newsletter-item-2 input{
@@ -351,4 +350,31 @@ section.newsletter{
 }
 /* SECTION NEWSLETTER END */
 
-/* MOBILE */
+
+
+/* FOOTER BEGIN */
+footer{
+  width: 100%;
+  background: #d6d3c8;
+}
+
+.footer-container{
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  max-width: 480px;
+}
+.footer-item-img {
+  max-width: 470px;
+}
+.footer-item-img img{
+  width: 140px;
+}
+/* FOOTER END */
